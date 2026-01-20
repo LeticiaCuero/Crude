@@ -6,7 +6,7 @@ function renderUsers() {
 
     users.forEach((name, index) => {
         const userRow = document.createElement("div");
-        userRow.className = "border rounded p-2 d-flex justify-content-between align-items-center";
+        userRow.className = "listItem";
         userRow.innerHTML = `
         <span id="name-${index}" class="flex-grow-1">${name}</span>
         <div class="d-flex gap-2">
