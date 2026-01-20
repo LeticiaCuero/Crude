@@ -1,5 +1,9 @@
-const users = [];
+const users = JSON.parse(localStorage.getItem("users")) || [];
 const userList = document.getElementById("userList");
+
+function saveToLocalStorage() {
+    localStorage.setItem("users", JSON.stringify(users));
+}
 
 function renderUsers() {
     userList.innerHTML = '<h3 class="h3">Usuários:</h3>';
@@ -24,6 +28,7 @@ function addUser() {
 
     if (newName !== '') {
         users.push(newName);
+        saveToLocalStorage();
         input.value = '';
         renderUsers();
     }
@@ -46,6 +51,7 @@ function saveEdit(index) {
     const newName = document.getElementById(`editInput-${index}`).value.trim();
     if (newName !== '') {
         users[index] = newName;
+        saveToLocalStorage();
         renderUsers();
     }
 }
