@@ -49,6 +49,13 @@ Versão aprimorada com CSS customizado, persistência de dados e melhorias na ex
 
 **Tecnologias:** HTML5, CSS3, JavaScript (ES6+), Local Storage
 
+## 📈 Evolução do Projeto
+
+| Versão | Principais Características |
+|--------|---------------------------|
+| **v1.0** | CRUD básico com Bootstrap |
+| **v1.1** | CSS customizado + Local Storage + Refatoração |
+
 ## 🎓 Aprendizados
 
 Este projeto demonstra a evolução natural de um desenvolvedor:
