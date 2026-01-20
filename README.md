@@ -49,27 +49,6 @@ Versão aprimorada com CSS customizado, persistência de dados e melhorias na ex
 
 **Tecnologias:** HTML5, CSS3, JavaScript (ES6+), Local Storage
 
-## 🚀 Como Executar
-
-1. Clone este repositório:
-```bash
-git clone https://github.com/seu-usuario/Crude.git
-```
-
-2. Navegue até a versão desejada:
-```bash
-cd Crude/crud-v1.1
-```
-
-3. Abra o arquivo `index.html` no navegador
-
-## 📈 Evolução do Projeto
-
-| Versão | Principais Características |
-|--------|---------------------------|
-| **v1.0** | CRUD básico com Bootstrap |
-| **v1.1** | CSS customizado + Local Storage + Refatoração |
-
 ## 🎓 Aprendizados
 
 Este projeto demonstra a evolução natural de um desenvolvedor:
